@@ -1,4 +1,4 @@
-# narethim.system.epel
+# ericsysmin.system.epel
 
 Role to install EPEL on RHEL systems
 
@@ -55,13 +55,13 @@ passed in as parameters) is always nice for users too:
 ```yaml
 - hosts: servers
   roles:
-    - role: narethim.system.epel
+    - role: ericsysmin.system.epel
 ```
 
 ```yaml
 - hosts: all
   roles:
-    - role: narethim.system.epel
+    - role: ericsysmin.system.epel
       epel_manual: true
       epel_repo_use_baseurl: true
 ```
@@ -72,4 +72,4 @@ MIT
 
 ## Author Information
 
-[narethim](https://narethim.com)
+[ericsysmin](https://ericsysmin.com)

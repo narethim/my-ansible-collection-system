@@ -10,5 +10,5 @@
       retries: 10
       delay: 2
   roles:
-    - role: narethim.system.epel
+    - role: ericsysmin.system.epel
       when: ansible_os_family == "RedHat"
