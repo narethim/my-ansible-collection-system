@@ -1,4 +1,4 @@
-# Ansible Collection - narethim.system
+# Ansible Collection - ericsysmin.system
 
 Ansible collection that holds roles, that can be used to configure common system services.
 
@@ -6,7 +6,7 @@ Ansible collection that holds roles, that can be used to configure common system
 
 | Role      | Build Status                                                                                                                                                                                                                                                        | Documentation                                                                                          |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| epel      | [![Role: narethim.system.epel](https://github.com/narethim/ansible-collection-system/workflows/narethim.system.epel/badge.svg)](https://github.com/narethim/ansible-collection-system/actions?query=workflow%3A%22narethim.system.epel%22)                | [Documentation](https://github.com/narethim/ansible-collection-system/blob/master/docs/epel.md)      |
+| epel      | [![Role: ericsysmin.system.epel](https://github.com/ericsysmin/ansible-collection-system/workflows/ericsysmin.system.epel/badge.svg)](https://github.com/ericsysmin/ansible-collection-system/actions?query=workflow%3A%22ericsysmin.system.epel%22)                | [Documentation](https://github.com/ericsysmin/ansible-collection-system/blob/master/docs/epel.md)      |
 
 ## Usage
 
@@ -19,7 +19,7 @@ You can find specific to each role within the "Documentation" link for each role
   tasks:
     - name: Include role
       include_role:
-        name: narethim.system.<role_name>
+        name: ericsysmin.system.<role_name>
       vars:
         var1: value1
         var2: value2
@@ -27,7 +27,7 @@ You can find specific to each role within the "Documentation" link for each role
 
 ## Testing
 
-Testing is done through GitHub Actions, and can be tested locally as well. GitHub Actions can be located [here](https://github.com/narethim/ansible-collection-system/actions).
+Testing is done through GitHub Actions, and can be tested locally as well. GitHub Actions can be located [here](https://github.com/ericsysmin/ansible-collection-system/actions).
 Each workflow pertains to a single role, and can be launched locally using the following command:
 
 ```bash

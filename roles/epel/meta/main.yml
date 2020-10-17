@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: narethim
+  author: ericsymsin
   role_name: epel
   description: Role to configure EPEL on RHEL/CentOS based systems
   license: MIT

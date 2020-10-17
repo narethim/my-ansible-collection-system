@@ -1,5 +1,5 @@
 ---
-# tasks file for narethim.epel
+# tasks file for ericsysmin.epel
 
 - name: epel | Install epel repo using epel-release
   include_tasks: "{{ ansible_os_family|lower }}.yml"
